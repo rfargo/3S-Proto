@@ -1,0 +1,363 @@
+.home{
+	/*position: relative;*/
+	/*only for menu*/
+	min-height: 100vh;
+	height: 100%;
+}
+
+.container{
+	min-height: 100vh;
+}
+
+#part1{
+	height: 100vh;
+	background-image: linear-gradient(rgba(234, 50, 50, 0.25), rgba(234, 50, 50, 0.25)),
+	url("/home/banner_sf.jpg");
+	background-size: cover;
+	background-position: 25% 0%;
+}
+
+.jumbotron{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#part1 h1{
+	color: white;
+	margin: 0;
+	font-weight: 700;
+	font-size: 40px;
+	margin: auto 10%;
+}
+
+#part1 p{
+	color: white;
+	margin: 20px 10% 20px 10%;
+	font-size: 15px;
+}
+
+#contact-us {
+	background-color:#EA3232;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:10px 0px;
+	width: 80vw;
+	text-decoration:none;
+	font-weight: 700;
+}
+
+#contact-us:hover {
+	background-color:white;
+}
+
+#see-product {
+	background-color:white;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:red;
+	font-size:20px;
+	padding:10px 0px;
+	width: 80vw;
+	text-decoration:none;
+	font-weight: 700;
+}
+
+#see-product:hover {
+	background-color:white;
+}
+
+.button{
+	margin: 10px 0;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+@keyframes bounce { 
+  0% { transform: translateY(0); }
+  100% { transform: translateY(10px); }
+}
+
+.scroll-more{
+	width: 100%; 
+	position: absolute;
+	bottom:0px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    animation: bounce 0.8s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+.scroll-more p{
+	display: inline-block;
+}
+
+#part2{}
+
+#part2 h2{
+	color: red;
+	font-size: 30px;
+	text-align: left;
+	margin: 20px 20px 0 20px;
+}
+
+#part2 p{
+	font-size: 17px;
+	text-align: left;
+	margin: 10px 20px 0 20px;
+}
+
+#more-about {
+	margin: 20px 0;
+	background-color:#EA3232;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:10px 0px;
+	width: 60vw;
+	text-decoration:none;
+	font-weight: 700;
+}
+
+#more-about:hover {
+	background-color:white;
+}
+
+.part2-image{
+	height: 50vh;
+	background-image:url("/home/ukmexpo3.jpg");
+	background-size: cover;
+	background-position: 0% 40%;
+}
+
+#part3{}
+
+#part3 div{
+	height: 100%
+}
+
+#part3 h2{
+	color: red;
+	font-size: 30px;
+	margin: 20px 20px 10px 20px;
+}
+
+.products h3{
+	color: red;
+	font-size: 25px;
+	text-align: left;
+	font-weight: 500;
+	margin: 0px 0px 10px 10px;
+}
+
+.productBox {
+  /*height: 132vw;*/ /*based on the amount, used vw*/
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.productBox .boxSafety , .productBox .boxEco{
+  border:2px solid #fff;
+  box-sizing:border-box;
+  width:calc(93% / 2);
+  margin: 0 0.5%;
+  background-color: transparent;
+}
+
+#part3 .boxSafetyImage{
+	background-color: pink;
+	height: 30vh;
+}
+
+.boxSafetyName p{
+	margin: 5% 5% 0 5%;
+	font-size: 17.5px;
+}
+
+#part3 .boxEcoImage{
+	background-color: green;
+	height: 30vh;
+}
+
+.boxEcoName p{
+	margin: 5% 5% 0 5%;
+	font-size: 17.5px;
+}
+
+/*
+.productBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.productBox .boxSafety{
+	background-color: transparent;
+	flex: 0 47.5%;
+	height: 100px;
+	margin-bottom: 5%; 
+	padding-bottom: 0%;
+}
+
+/* (100-32*3)/2 */
+	/*padding-bottom: calc(47.5% + 20%); /* Same as width, sets height */
+
+/*
+
+.productBox .boxEco{
+	background-color: transparent;
+	flex: 0 47.5%;
+	height: 100px;
+	margin-bottom: 5%; 
+	padding-bottom: 0%;
+}
+
+/* (100-32*3)/2 */
+	/*padding-bottom: calc(47.5% + 20%); /* Same as width, sets height */
+
+
+#part4{}
+
+#part4 div{
+	height: 100%
+}
+
+#part4 h2{
+	color: red;
+	font-size: 30px;
+	margin: 0px 20px 0 20px;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+  	.mobile-only{
+  		display: none;
+  	}
+
+	#part1 h1{
+		font-size: 50px;
+	}
+
+	#part1 p{
+		font-size: 20px;
+		margin: 20px 20% 20px 20%;
+	}
+
+	#contact-us {
+		font-size:22px;
+		width: 15vw;
+	}
+
+	#see-product {
+		font-size:22px;
+		width: 15vw;
+	}
+
+	.button{
+		margin: 10px 2vw;
+	}
+
+	.scroll-more{
+		width: 50%; 
+		margin-left: 25%
+	}
+
+	@keyframes bounce { 
+	  0% { transform: translateY(0); }
+	  100% { transform: translateY(7px); }
+	}
+
+	#part1 .scroll-more p{
+		font-size: 17.5px;
+	}
+	
+	#part2{
+		min-height: 0;
+	}
+
+	#part2 > div{
+		display: flex;
+	}
+	
+	.part2-image{
+		width: 40%;
+	}
+
+	.part2-words{
+		width: 60%;
+		margin-right:20px;
+	}
+
+	#part2 h2{
+		font-size: 40px;
+		margin: 20px 20px 0 20px;
+	}
+
+	#part2 p{
+		font-size: 18px;
+		margin: 10px 0px 0px 20px;
+	}
+
+	#more-about {
+		width: 15vw;
+		float: right;
+	}
+
+
+	#part3{}
+
+	#part3 div{
+		height: 100%
+	}
+
+	#part3 h2{
+		font-size: 35px;
+		margin: 20px 20px 10px 1.4%;
+	}
+
+	.products h3{
+		font-size: 30px;
+		margin: 0px 0px 10px 1.4%;
+	}
+
+	.productBox {
+	  /*height: 132vw;*/ /*based on the amount, used vw*/
+	  display: flex;
+	  flex-wrap:wrap;
+	  justify-content: flex-start;
+	  margin: 0px 0.7% 20px 0.7%;
+	}
+	.productBox .boxSafety , .productBox .boxEco{
+	  width:calc(93% / 5);
+	  margin: 0.5% 0.7%;
+	}
+
+	#part3 .boxSafetyImage{
+		height: 40vh;
+	}
+
+	#part3 .boxEcoImage{
+		height: 40vh;
+	}
+
+	#part4 h2{
+		font-size: 35px;
+		margin: 0px 20px 0 1.4%;
+	}
+
+}

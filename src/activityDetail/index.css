@@ -1,0 +1,56 @@
+.activity-detail{
+	/*position: relative;*/
+	/*only for menu*/
+	min-height: 100vh;
+	height: 100%;
+}
+
+.empty{
+	height: 10vh;
+	width: 100%;
+}
+
+.activity-body{
+	display: flex;
+}
+
+.activity-body-main{
+	width: 75%;
+}
+
+.activity-body-sidebar{
+	width: 25%;
+	background-color: grey;
+}
+
+
+#part-title{
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+	margin: 20px 0 0 20px;
+}
+
+#part-title span{
+	font-weight: 800;
+}
+
+#title{
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0 20px 0px 20px;
+}
+
+#activity-date{
+	font-size: 15px;
+	text-align: left;
+	margin: 10px 0px 20px 20px;
+}
+
+
+#activity-text{
+	font-size: 20px;	
+	text-align: left;
+	margin: 0 20px 0px 20px;
+}

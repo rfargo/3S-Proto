@@ -1,0 +1,11 @@
+.product{
+	/*position: relative;*/
+	/*only for menu*/
+	min-height: 100vh;
+	height: 100%;
+}
+
+.empty{
+	height: 10vh;
+	width: 100%;
+}

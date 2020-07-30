@@ -1,0 +1,239 @@
+.contact{
+	/*position: relative;*/
+	/*only for menu*/
+	min-height: 100vh;
+	height: 100%;
+}
+
+.empty{
+	height: 10vh;
+	width: 100%;
+}
+
+h2{
+	color: rgba(234, 50, 50, 1);
+	font-size: 50px;
+	text-align: left;
+	margin: 10px 0 10px 10px;
+}
+
+.contact-via{
+	margin-bottom: 10px;
+}
+
+.via-sign{
+	/*background-color: red;*/
+	width: 7.5vw;
+	min-height:4.5vh;
+	display: inline-block;
+	margin-right: 3vw;
+	vertical-align: top;
+}
+
+.via-write{
+	width: 80vw;
+	display: inline-block;
+}
+
+.via-write p{
+	text-align: left;
+	margin:0;
+	margin-bottom: 10px;
+	font-size: 17.5px;
+}
+
+#address-sign{
+	background-image: url("/contact/iconmonstr-building-15_red.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#fax-sign{
+	background-image: url("/contact/12022-red.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.contact-part2{
+
+}
+
+.contact-part2 h4{
+	color: rgba(234, 50, 50, 1);
+	font-size: 25px;
+	text-align: left;
+	margin: 10px 0 10px 10px;
+}
+
+.table{
+	width: 90vw;
+	margin-left: 10px
+}
+
+.column-left, .column-right{
+	display: inline-block;
+	width: 50%
+}
+
+#head p{
+	font-weight: 700;
+}
+
+.column-left p, .column-right p{
+	text-align: left;
+	margin: 5px 0;
+	font-size: 17.5px;
+}
+
+.contact-part3 h4{
+	color: rgba(234, 50, 50, 1);
+	font-size: 25px;
+	text-align: left;
+	margin: 20px 0 10px 10px;
+}
+
+form{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.input-form{
+	border-radius: 17.5px;
+	border-color: rgba(234, 50, 50, 1);
+	font-size: 17.5px;
+	width: 88vw;
+	padding: 10px;
+	color: black;
+	margin:5px 0;
+	border-width: medium;
+}
+
+#input-text{
+	height: 100px;
+	border-width: medium;
+}
+
+.send-button{
+	text-align: right;
+	margin-right: 10px;
+}
+
+.button {
+	background-color:rgba(234, 50, 50, 1);
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17.5px;
+	padding:12px 31px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:rgba(234, 50, 50, 0.75);
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	.contact{
+  		margin-bottom: 5vh;
+  	}
+
+  	.contact > div{
+  		display: flex;
+  	}
+
+  	.contact > div > div{
+  		width: 50%;
+  	}
+
+	.contact-part1{
+		text-align: left;
+	}
+
+	.via-sign{
+		/*background-color: red;*/
+		width: 2.5vw;
+		min-height:4.5vh;
+		display: inline-block;
+		margin-right: 1vw;
+		margin-left: 1vw;
+		vertical-align: top;
+	}
+
+	.via-write{
+		width: 40vw;
+		display: inline-block;
+	}
+
+	.via-write p{
+		text-align: left;
+		margin:0;
+		margin-bottom: 10px;
+		font-size: 17.5px;
+	}
+
+
+	.contact-part2 h4{
+		font-size: 30px;
+		margin: 10px 0 10px 10px;
+	}
+
+	.table{
+		width: 40vw;
+		margin-left: 10px
+	}
+
+	.column-left, .column-right{
+		display: inline-block;
+		width: 50%
+	}
+
+	.column-left p, .column-right p{
+		margin: 5px 0;
+		font-size: 17.5px;
+	}
+
+
+	.contact-part3 h4{
+		font-size: 30px;
+		text-align: left;
+		margin: 0px 0 10px 10px;
+	}
+
+	form{
+		margin-left: 10px;
+	}
+
+	.input-form{
+		font-size: 17.5px;
+		width: 40vw;
+		display: block;
+		padding: 10px;
+		margin:5px 0;
+	}
+
+	#input-text{
+		height: 100px;
+	}
+
+	.send-button{
+		text-align: right;
+		margin-right: 5vw;
+	}
+
+	.button {
+		border-radius:12px;
+		display:inline-block;
+		font-size:17.5px;
+		padding:12px 31px;
+	}
+
+  	
+}
