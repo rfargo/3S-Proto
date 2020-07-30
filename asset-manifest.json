@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/3s-proto/static/css/main.d38234ac.chunk.css",
+    "main.js": "/3s-proto/static/js/main.aed6cb31.chunk.js",
+    "main.js.map": "/3s-proto/static/js/main.aed6cb31.chunk.js.map",
+    "runtime-main.js": "/3s-proto/static/js/runtime-main.6998821c.js",
+    "runtime-main.js.map": "/3s-proto/static/js/runtime-main.6998821c.js.map",
+    "static/css/2.b45b3de8.chunk.css": "/3s-proto/static/css/2.b45b3de8.chunk.css",
+    "static/js/2.3d8d7285.chunk.js": "/3s-proto/static/js/2.3d8d7285.chunk.js",
+    "static/js/2.3d8d7285.chunk.js.map": "/3s-proto/static/js/2.3d8d7285.chunk.js.map",
+    "index.html": "/3s-proto/index.html",
+    "precache-manifest.01b5d4d9c0589e601ece38cc090209ac.js": "/3s-proto/precache-manifest.01b5d4d9c0589e601ece38cc090209ac.js",
+    "service-worker.js": "/3s-proto/service-worker.js",
+    "static/css/2.b45b3de8.chunk.css.map": "/3s-proto/static/css/2.b45b3de8.chunk.css.map",
+    "static/css/main.d38234ac.chunk.css.map": "/3s-proto/static/css/main.d38234ac.chunk.css.map",
+    "static/js/2.3d8d7285.chunk.js.LICENSE.txt": "/3s-proto/static/js/2.3d8d7285.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/3s-proto/static/media/logo.25bf045c.svg",
+    "static/media/slick-theme.css": "/3s-proto/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6998821c.js",
+    "static/css/2.b45b3de8.chunk.css",
+    "static/js/2.3d8d7285.chunk.js",
+    "static/css/main.d38234ac.chunk.css",
+    "static/js/main.aed6cb31.chunk.js"
+  ]
+}
